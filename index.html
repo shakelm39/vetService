@@ -1,0 +1,402 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="An awesome pet service website">
+    <title>Pest Service</title>
+     <!-- jquery  -->
+     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- google fonts  -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;0,800;1,500&display=swap"
+      rel="stylesheet">
+    <!-- font awesome  -->
+    <script src="https://kit.fontawesome.com/cdb69abd76.js"></script>
+   
+    <!-- main css  -->
+    <link rel="stylesheet" href="resources/css/style.css">
+    <!-- responsive css  -->
+    <link rel="stylesheet" href="resources/css/responsive.css">
+  </head>
+  <body>
+    <!-- HEADER SECTION  -->
+    <header id="hero" class="header">
+      <div class="navbar" id="navbar">
+        <!-- navbar start -->
+        <div class="logo-area">
+          <div class="logo">
+            <a href="#" class="logo-icon">
+              <img src="resources/img/logo.png" alt="logo">
+            </a>
+          </div>
+        </div>
+        <div class="topnav" id="myTopnav">
+          <a onclick="closeNav()" href="#hero">Home</a>
+          <a onclick="closeNav()" href="#about">about</a>
+          <a onclick="closeNav()" href="#service">service</a>
+          <a onclick="closeNav()" href="#contact">contact</a>
+          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+            <i class="fa fa-bars"></i>
+          </a>
+        </div>
+        <div class="search-bar">
+          <input type="text" placeholder="search..">
+          <div class="search-icon">
+            <i class="fa fa-search"></i>
+          </div>
+        </div>
+      </div>
+      <!-- navbar end -->
+      <div class="hero-content">
+        <!-- hero content start -->
+        <div class="hero-grid">
+          <div class="hero-grid-item">
+            <div class="hero-title">
+              <h1>First I wanted to be a veterinarian</h1>
+              <p>
+                Lorem Ipsum available but the majority have suffered alteration
+                in some form, by injected humour randomised words.
+              </p>
+            </div>
+            <div class="hero-btn">
+              <a href="#" class="btn contactbtn">Contact us</a>
+              <a href="#" class="btn servicebtn">Our Service</a>
+            </div>
+          </div>
+          <div class="hero-grid-item">
+            <div class="hero-img">
+              <img src="resources/img/dog1.png" alt="dog">
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- hero content end -->
+    </header>
+    <!-- SERVICE SECTION  START-->
+    <section class="service-section"  id="service">
+      <div class="container">
+        <div class="service-grid">
+          <div class="service-grid-item">
+            <div class="section-title">
+              <h2>As a veterinarian and lover of animals.</h2>
+              <p>
+                Lorem Ipsum available but the majoty suffered alteration in some
+                form, by humour randomised words.
+              </p>
+            </div>
+            <div class="section-btn">
+              <a href="#" class="btn service-btn">Our Service</a>
+            </div>
+          </div>
+          <div class="service-grid-item">
+            <div class="video-area">
+              <div class="video">
+                <video width="600" controls>
+                  <source src="resources/videos/dog1.mp4" type="video/mp4">
+                </video>
+              </div>
+              <div class="overly"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- SERVICE SECTION  END-->
+    <!-- TREATMENT SECTION  START-->
+    <section class="treatment" id="about">
+      <div class="container">
+        <div class="treatment-content">
+            <h2>Title here</h2>
+            <p> Lorem Ipsum available, but the majority have
+              suffered alteration in some form.</p>
+        </div>
+      </div>
+      <div class="container">
+        <div class="treatment-grid">
+          <div class="treatment-grid-item">
+            <img src="resources/img/treatment1.png" alt="treatment">
+              <h3>Veterinarian</h3>
+              <p> Lorem Ipsum available, but
+                the majority have suffered
+                alteration in some.</p>
+          </div>
+          <div class="treatment-grid-item">
+            <img src="resources/img/treatment1.png" alt="treatment">
+              <h3>Veterinarian</h3>
+              <p> Lorem Ipsum available, but the majority have suffered alteration in some.</p>
+          </div>
+          <div class="treatment-grid-item">
+            <img src="resources/img/treatment1.png" alt="treatment">
+              <h3>Veterinarian</h3>
+              <p> Lorem Ipsum available, but
+                the majority have suffered
+                alteration in some.</p>
+           
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- TREATMENT SECTION  END-->
+<!-- SERVICE SECTION  START-->
+<section class="service-section">
+  <div class="container">
+    <div class="service-grid">
+      <div class="service-grid-item">
+        <div class="video-area">
+          <div class="video">
+            <video width="600" controls>
+              <source src="resources/videos/dog1.mp4" type="video/mp4">
+            </video>
+          </div>
+          <div class="overly2"></div>
+        </div>
+      </div>
+      <div class="service-grid-item">
+        <div class="section-title">
+          <h2>As a veterinarian and lover of animals.</h2>
+          <p>
+            Lorem Ipsum available but the majoty suffered alteration in some
+            form, by humour randomised words.
+          </p>
+        </div>
+        <div class="section-btn">
+          <a href="#" class="btn service-btn">Our Service</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SERVICE SECTION  END-->
+<!-- SEll SECTION  START-->
+<section class="vetsell">
+  <div class="container">
+    <h2>Title Here</h2>
+    <p> Lorem Ipsum available, but the majority have suffered alteration in some form.</p>
+  </div>
+  <div class="container">
+    <div class="vet-grid">
+      <div class="vet-grid-item">
+        <img src="resources/img/dog2.jpg" alt="vet">
+        <div class="price-section">
+          <span><del>$50</del></span>
+          <span>$30</span>
+        </div>
+        <div class="sellbtn">
+          <button class="btn sell-btn">buy now</button>
+        </div>
+      </div>
+      <div class="vet-grid-item">
+        <img src="resources/img/dog3.jpg" alt="vet">
+        <div class="price-section">
+          <span><del>$50</del></span>
+          <span>$30</span>
+        </div>
+        <div class="sellbtn">
+          <button class="btn sell-btn">buy now</button>
+        </div>
+      </div>
+      <div class="vet-grid-item">
+        <img src="resources/img/dog4.jpg" alt="vet">
+        <div class="price-section">
+          <span><del>$50</del></span>
+          <span>$30</span>
+        </div>
+        <div class="sellbtn">
+          <button class="btn sell-btn">buy now</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- SELL SECTION  END-->
+<!-- VETCARE SECTION  END-->
+<section class="vetcare">
+  <div class="container">
+    <h2>the vetcare team</h2>
+    <p>lorem ipsum avalaible, but the majority have suffered alteration in some form.</p>
+  </div>
+  <div class="container">
+    <div class="vetcare-grid">
+      <div class="vetcare-grid-item">
+        <div class="vetcaredr">
+          <img src="resources/img/dr1.jpg" alt="dr">
+          <h4>Jennifer Mullen</h4>
+          <div class="role">
+            <span>VETERINARY</span>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="vetcare-grid-item">
+        <div class="vetcaredr">
+          <img src="resources/img/dr2.jpg" alt="dr">
+          <h4>Sheeren Collins</h4>
+          <div class="role">
+            <span>ADMINISTRATION</span>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="vetcare-grid-item">
+        <div class="vetcaredr">
+          <img src="resources/img/dr3.jpg" alt="dr">
+          <h4>Jennifer Mullen</h4>
+          <div class="role">
+            <span>VETERINARY</span>
+            <ul class="social-icon">
+              <li><a href="#"><i class="fa-brands fa-instagram"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-facebook"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fa-brands fa-whatsapp"></i></a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- VETCARE SECTION  END-->
+<!-- COUNT SECTION  END-->
+<section id="count">
+  <div class="count-grid">
+    <div class="count-grid-item">
+      <i class="fa-solid fa-heart-circle-plus"></i>
+      <span>+34793</span>
+      <h4>happy clients</h4>
+    </div>
+    <div class="count-grid-item">
+      <i class="fa-solid fa-stethoscope"></i>
+      <span>+34793</span>
+      <h4>Department</h4>
+    </div>
+    <div class="count-grid-item">
+      <i class="fa-solid fa-syringe"></i>
+      <span>+34793</span>
+      <h4>Vaccination</h4>
+    </div>
+  </div>
+</section>
+<!-- COUNT SECTION  END-->
+<!-- RECENT POST SECTION  START-->
+<section class="recent-post">
+  <div class="container">
+    <h2>Recent Post</h2>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, tempora?</p>
+  </div>
+  <div class="container">
+    <div class="recent-grid">
+      <div class="recent-grid-item">
+        <img src="resources/img/post1.jpg" alt="post">
+        <div class="recent-content">
+          <h3>As a vaterinarian and lover of animals</h3>
+          <div class="date">
+            <span>february 09.2020</span>
+          </div>
+          <div class="content">
+            <p>Lorem Ipsum available, but the majo
+              rity have suffered alteration in some  words which look.</p>
+          </div>
+          <a href="#">Read More +</a>
+        </div>
+      </div>
+      <div class="recent-grid-item">
+        <img src="resources/img/post2.jpg" alt="post">
+        <div class="recent-content">
+          <h3>As a vaterinarian and lover of animals</h3>
+          <div class="date">
+            <span>february 09.2020</span>
+          </div>
+          <div class="content">
+            <p>Lorem Ipsum available, but the majo
+              rity have suffered alteration in some words which look.</p>
+          </div>
+          <a href="#">Read More +</a>
+        </div>
+      </div>
+      <div class="recent-grid-item">
+        <img src="resources/img/post3.jpg" alt="post">
+          <div class="recent-content">
+            <h3>As a vaterinarian and lover of animals</h3>
+            <div class="date">
+              <span>february 09.2020</span>
+            </div>
+            <div class="content">
+              <p>Lorem Ipsum available, but the majo
+                rity have suffered alteration in some words which look.</p>
+            </div>
+            <a href="#">Read More +</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<!-- RECENT POST SECTION  END-->
+<!-- FOOTER SECTION  END-->
+<section class="footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-grid-item">
+        <h4>About</h4>
+        <ul>  
+          <li><a href="#">history</a></li>
+          <li><a href="#">our team</a></li>
+          <li><a href="#">brand guidelines</a></li>
+          <li><a href="#">terms & condition</a></li>
+          <li><a href="#">privacy policy</a></li>
+        </ul>
+      </div>
+      <div class="footer-grid-item">
+        <h4>Service</h4>
+        <ul>
+          <li><a href="#">how to order</a></li>
+          <li><a href="#">our product</a></li>
+          <li><a href="#">order status</a></li>
+          <li><a href="#">promo</a></li>
+          <li><a href="#">payment method</a></li>
+        </ul>
+      </div>
+      <div class="footer-grid-item">
+        <h4>title here</h4>
+        <span> Lorem Ipsum available, but the majorit</span>
+        <div class="newslater" id="contact">
+          <input type="text">
+          <i class="fa-brands fa-telegram"></i>
+        </div>
+        <div class="footer-social-icon">
+         <ul>
+          <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+          <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+          <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+          <li><a href="#"><i class="fa fa-whatsapp"></i></a></li>
+         </ul>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<!-- FOOTER SECTION  END-->
+    <!-- js script  -->
+
+    <!-- main js  -->
+    <script src="resources/js/main.js"></script>
+
+    <!-- Google tag (gtag.js) --> 
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-SFFXX270R6"></script> <script> window.dataLayer = window.dataLayer || []; function gtag(){dataLayer.push(arguments);} gtag('js', new Date()); gtag('config', 'G-SFFXX270R6'); </script>
+<!-- Google tag (gtag.js) --> 
+
+  </body>
+</html>

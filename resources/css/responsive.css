@@ -1,0 +1,396 @@
+/*
+* Template Name: vet service
+* Author: Shakel,
+* Version: v 1.0.0
+* Browsers: last version
+*/
+
+@media screen and (max-width:1200px){
+  .logo {
+    margin-left: 6rem;
+  }
+  html{
+    font-size: 58%;
+  }
+ 
+  .search-bar {
+    margin-top: 3rem;
+  }
+  .hero-content {
+    padding:6rem 0;
+  }
+  .hero-title h1 {
+    line-height: 1.2;
+  }
+  .hero-title p {
+    line-height: 1.5;
+  }
+  section{
+    padding-top: 2rem;
+  }
+  .section-title {
+    padding-left: 5rem;
+  }
+  .section-title h2 {
+    line-height: 1.5;
+    margin-bottom: 2rem;
+  }
+  
+  .role {
+    text-align: center;
+  }
+  .role span{
+    width: 100%;
+    margin: auto;
+  }
+  .social-icon {
+    width: 100%;
+    clear: both;
+  }
+  .count-grid-item{
+    width: 100%;
+    margin: auto;
+    text-align: center;
+  }
+  .count-grid-item span{
+    width: 100%;
+    margin: auto;
+  }
+  .count-grid-item h4{
+    clear: both;
+  }
+  
+}
+@media screen and (max-width: 1024px) {
+  html{
+    font-size: 50%;
+  }
+  
+  .logo-area {
+    display: none;
+  }
+
+  .topnav{
+    width: 60%;
+    padding: 0;
+    margin-left: 4rem;
+  }
+  .topnav a{
+    display: none;
+  }
+  .topnav a.icon{
+    display: block;
+    float:left;
+    font-size: 4rem;
+  }
+  .topnav.responsive {
+    position: relative;
+  }
+  
+  .topnav.responsive .icon{
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .topnav.responsive a {
+      float: none;
+      display: block;
+      text-align: left;
+    }
+  .search-bar input[type="text"] {
+    padding: 1.2rem 2rem;
+    width: 30rem;
+    margin-top: -6rem;
+  }
+  .search-icon {
+    top: -1rem;
+    right: -8rem;
+    font-size: 1.7rem;;
+    padding:1rem 4rem;
+  }
+  .service-section {
+    width: 100%;
+  }
+  .video-area {
+    width: 60rem;
+    height: 40rem;
+  }
+  .video {
+    position: absolute;
+    width: 80%;
+    height: 40rem;
+  }
+  .overly {
+    bottom: 25%;
+    left: 5%;
+    width: 20rem;
+    height: 15rem;
+    
+  }
+  .section-title {
+    margin-top: 0;
+    padding-left: 2rem;
+  }
+  .section-title h2 {
+    margin-top: 1rem;
+    
+  }
+ 
+  .treatment-grid-item{
+    width: 80%;
+    padding-left: 2rem;
+  }
+  .treatment-grid-item img{
+    width: 30rem;
+  }
+  
+  .treatment-grid-item p {
+    width: 100%;
+    margin: auto;
+  }
+  .overly2 {
+    bottom: 20%;
+    right: 5%;
+    width: 25rem;
+  }
+  
+  .vet-grid-item {
+   width: 80%;
+  }
+ 
+  .vet-grid-item:nth-child(2) {
+    width:100%;
+  }
+  .vet-grid-item:nth-child(3) {
+    width:90%;
+  }
+ 
+  .vet-grid-item img
+  {
+    width: 100%;
+  }
+  .price-section span {
+    text-align: center;
+    padding: 1rem 0;
+  }
+  .sellbtn {
+    width: 100%;
+    text-align: center;
+  }
+  .sell-btn {
+    border-radius: 5rem;
+    margin-left: 5rem;
+  }
+  
+  .vetcare-grid-item {
+    padding-top: 6rem;
+    width: 80%;
+    margin: auto;
+  }
+  .vetcare-grid-item img{
+    width: 100%;
+  }
+  .vetcare-grid-item:nth-child(1) {
+    margin-left: 2rem;
+  }
+  .vetcare-grid-item:nth-child(2) {
+    margin: 0 2rem;
+  }
+  .vetcare-grid-item:nth-child(3) {
+    margin-right: 2rem;
+  }
+ 
+  .recent-grid-item h3{
+    padding: 1rem 1rem;
+  }
+  .date span{
+    padding-left: 0;
+    margin-left: 0;
+  }
+  .content p{
+    padding: 1.2rem 1.2rem;
+  }
+  .recent-grid-item a{
+    padding-left: 1rem;
+  }
+ 
+  .footer-grid-item span{
+    text-align: right;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  html {
+    font-size: 40.5%;
+  }
+  
+  .search-bar {
+    margin-top: 2rem;
+    padding: 1rem 3rem;
+    width: 25rem;
+  }
+  .search-icon {
+    font-size: 1.7rem;
+    padding: 1.2rem 4rem;
+    margin-top: .7rem;
+  }
+
+  .hero-grid-item img {
+    height: 50rem;
+  }
+}
+@media screen and (max-width:480px){
+  html {
+    font-size: 35%;
+  }
+  .topnav{
+    width: 45%;
+  }
+  .search-icon {
+    font-size: 1.7rem;
+    padding: 1.3rem 4rem;
+    margin-top: .5rem;
+  }
+  .hero-grid{
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .hero-grid-item {
+    margin-bottom: 2rem;
+    width: 100%;
+    margin: auto;
+  }
+  .hero-grid-item img {
+    height: 30rem;
+  }
+  .hero-btn{
+    margin-left: 18rem;
+  }
+  .service-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+    margin-top: 6rem;
+  }
+  .service-grid-item{
+    width: 100%;
+    margin: auto;
+    
+  }
+  .section-title p {
+    width: 90%;
+    margin: auto;
+  }
+  .section-btn{
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 6rem 0;
+  }
+  .treatment-grid {
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+    text-align: center;
+  }
+  .treatment-grid-item {
+    width: 100%;
+    margin: auto;
+  }
+  .treatment-grid-item img {
+    width: 90%;
+  }
+  .vet-grid {
+    -ms-grid-columns:  1fr;
+    grid-template-columns:  1fr;
+  }
+  .vet-grid-item {
+    padding: 4rem 0;
+    text-align: center;
+    width: 100%;
+  }
+  .vet-grid-item:nth-child(1) {
+    margin: 0;
+  }
+  .vet-grid-item:nth-child(2) {
+    margin: 0;
+  }
+  .vet-grid-item:nth-child(3) {
+    margin: 0;
+    width: 100%;
+  }
+  .vet-grid-item img {
+    width: 90%;
+    height: auto;
+  }
+  .vetcare-grid {
+    -ms-grid-columns:1fr;
+    grid-template-columns:1fr;
+  }
+  .vetcare-grid-item {
+    width: 100%;
+    padding-top:6rem;
+    margin: auto;
+  }
+  .vetcare-grid-item:nth-child(1) {
+    margin: 0;
+  }
+  .vetcare-grid-item:nth-child(2) {
+    margin: 0;
+  }
+  .vetcare-grid-item:nth-child(3) {
+    margin: 0;
+  }
+  .vetcare-grid-item img{
+    width: 80%;
+    height: auto;
+  }
+  .social-icon li a {
+    width: 5rem;
+    height: 5rem;
+    font-size: 3rem;
+  }
+  .count-grid{
+    -ms-grid-columns: 1fr;
+    grid-template-columns: 1fr;
+  } 
+  .count-grid-item i{
+    margin: 4rem 0;
+  }
+  .recent-grid{
+    -ms-grid-columns:  1fr;
+    grid-template-columns:  1fr;
+    
+  }
+  .recent-grid-item{
+    padding: 4rem 0;
+    width: 100%;
+    margin: auto;
+  }
+  .recent-grid-item img{
+   padding: 6rem 4rem;
+  }
+  .recent-content{
+    width: 80%;
+    margin: auto;
+  }
+  .recent-grid-item h3{
+    text-align: center;
+  }
+  .content p{
+    font-size: 2rem;
+    padding: 4rem 3rem;
+  }
+  .date span{
+    width: 100%;
+    padding: 2rem 10rem;
+    font-size: 2rem;
+  }
+  .recent-grid-item a{
+    padding: 2rem 3rem;
+    margin-bottom: 4rem;
+    font-size: 2rem;
+   
+  }
+ 
+}
